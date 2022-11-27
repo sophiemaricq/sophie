@@ -8,6 +8,8 @@ h1 {
     font-family: 'Ms Madi', cursive;
 }
 
+/* Callout Container */
+
 .callout-container {
     height: 100vh;
     background: url(../images/sophie.jpg) no-repeat center center fixed; 
@@ -15,6 +17,23 @@ h1 {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Jumbotron */
+
+.jumbotron {
+    background-color: transparent;
+    margin-left: 100px;
+}
+
+.jumbotron-header {
+    color: black;
+    font-weight: bold;
+    font-size: 5rem;
 
 }
 
@@ -27,3 +46,11 @@ h1 {
 .schedule-container {}
 
 .footer-container {}
+
+/* Media Queries */
+/* for medium tablet screen size from 768px wide and up */
+@media screen and (min-width: 768px) {
+    .jumbotron {
+        margin-left: 450px;
+    }
+}
