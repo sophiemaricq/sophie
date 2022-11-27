@@ -14,6 +14,14 @@ h1 {
     padding: 0.5rem;
 }
 
+.bg-light {
+    background-color: #fafafa!important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0,0,0, 1);
+}
+
 /* Callout Container */
 .callout-container {
     height: 100vh;
