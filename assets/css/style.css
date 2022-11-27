@@ -66,6 +66,10 @@ h1 {
 
 .schedule-container {}
 
+.table-light, .table-light>td, .table-light>th {
+    background-color: #e9ecef;
+}
+
 .footer-container {}
 
 /* Media Queries */
