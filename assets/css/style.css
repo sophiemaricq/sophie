@@ -48,10 +48,14 @@ h1 {
 
 }
 
+/* Buttons */
+
 .btn-primary {
     color: #fff;
     background-color: #133049;
     border-color: black;
+    width: 140px;
+    border-radius: 23px;
 }
 
 .crowfunding-container {}
