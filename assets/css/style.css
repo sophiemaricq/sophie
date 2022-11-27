@@ -58,6 +58,14 @@ h1 {
     border-radius: 23px;
 }
 
+.btn-lg {
+    color: #fff;
+    background-color: #133049;
+    border-color: black;
+    border-radius: 23px;
+
+}
+
 .crowfunding-container {}
 
 .photo-container {}
@@ -65,6 +73,8 @@ h1 {
 .about-container {}
 
 .schedule-container {}
+
+/* Table */
 
 .table-light, .table-light>td, .table-light>th {
     background-color: #e9ecef;
