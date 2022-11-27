@@ -9,7 +9,6 @@ h1 {
 }
 
 /* Callout Container */
-
 .callout-container {
     height: 100vh;
     background: url(../images/sophie.jpg) no-repeat center center fixed; 
@@ -34,7 +33,12 @@ h1 {
     color: black;
     font-weight: bold;
     font-size: 5rem;
+}
 
+.btn-primary {
+    color: #fff;
+    background-color: #133049;
+    border-color: black;
 }
 
 .crowfunding-container {}
