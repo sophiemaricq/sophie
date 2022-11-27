@@ -88,7 +88,9 @@ h1 {
     background-color: #e9ecef;
 }
 
-.footer-container {}
+.footer-container {
+    background-color: #fafafa!important;
+}
 
 /* Footer */
 
