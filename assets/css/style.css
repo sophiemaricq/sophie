@@ -71,7 +71,11 @@ h1 {
     background-color: #133049;
     border-color: black;
     border-radius: 23px;
+}
 
+.fund-btn {
+    display: flex;
+    justify-content: center;
 }
 
 .crowfunding-container {}
