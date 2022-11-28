@@ -92,6 +92,19 @@ h1 {
     background-color: #e9ecef;
 }
 
+/* gallery */
+
+#gallery {
+    clear: both;
+    line-height: 0;
+    column-count: 2;
+    column-gap: 0;
+}
+
+#gallery > img {
+    width: 100%;
+}
+
 .footer-container {
     background-color: #fafafa!important;
 }
@@ -131,5 +144,16 @@ h5 {
 @media screen and (min-width: 768px) {
     .jumbotron {
         margin-left: 450px;
+    }
+
+    #gallery {
+        column-count: 2;
+    }
+}
+
+/* for medium tablet screen size from 992px wide and up */
+@media screen and (min-width: 992px) {
+    #gallery {
+        column-count: 3;
     }
 }
