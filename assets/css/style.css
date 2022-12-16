@@ -123,6 +123,10 @@ h5 {
     padding-bottom: 15px;
 }
 
+#signature {
+    font-size: x-small;
+}
+
 .social-links li a i {
     width: 32px;
     height: 32px;
