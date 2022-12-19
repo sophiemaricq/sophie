@@ -1,11 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Ms+Madi&family=Quattrocento+Sans&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Montserrat:wght@300&family=Ms+Madi&family=Quattrocento+Sans&family=Satisfy&display=swap');
 
 body {
     font-family: 'Quattrocento Sans', sans-serif;
 }
 
 h1 {
-    font-family: 'Ms Madi', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4rem;
 }
 
 /* Navigation Bar */
@@ -45,9 +46,16 @@ h1 {
 
 .jumbotron-header {
     color: white;
-    /* font-weight: bold; */
     font-weight: 400;
-    font-size: 5rem;
+    letter-spacing: 0.2em
+}
+
+.surname {
+    font-family: 'Ms Madi', cursive;
+    font-size: 3rem;
+    color: #f16d6d;
+    text-align: right;
+    margin-right: 2rem;
 }
 
 .jumbotron-text {
@@ -63,7 +71,7 @@ h1 {
     color: #fff;
     background-color: #133049;
     border-color: black;
-    width: 140px;
+    /* width: 140px; */
     border-radius: 23px;
 }
 
@@ -111,6 +119,12 @@ h1 {
     /* display: flex;
     justify-content: center; */
     box-sizing: content-box;
+}
+
+/* My Music */
+
+.thumbnail {
+
 }
 
 /* Footer */
