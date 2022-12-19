@@ -124,10 +124,11 @@ h1 {
     box-sizing: content-box;
 }
 
-/* My Music */
+/* Bio */
 
-.thumbnail {
-
+.img-bio {
+    height: 300px;
+    width: 300px;
 }
 
 /* Footer */
