@@ -47,7 +47,10 @@ h1 {
 .jumbotron-header {
     color: white;
     font-weight: 400;
-    letter-spacing: 0.2em
+    letter-spacing: 0.2em;
+    text-align: right;
+    margin-right: 2rem;
+    margin-bottom: 0;
 }
 
 .surname {
