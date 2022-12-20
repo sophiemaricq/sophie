@@ -126,6 +126,10 @@ h1 {
 
 /* Bio */
 
+.gap100 {
+    padding: 70px 0px;
+}
+
 .img-bio {
     height: 300px;
     width: 300px;
