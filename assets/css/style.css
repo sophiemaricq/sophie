@@ -76,6 +76,7 @@ h1 {
     border-color: black;
     /* width: 140px; */
     border-radius: 23px;
+    margin: 3px 0;
 }
 
 .btn-lg {
@@ -119,8 +120,6 @@ h1 {
 
 .footer-container {
     background-color: #fafafa!important;
-    /* display: flex;
-    justify-content: center; */
     box-sizing: content-box;
 }
 
@@ -133,6 +132,12 @@ h1 {
 .img-bio {
     height: 300px;
     width: 300px;
+}
+
+/* My Music */
+
+.img-thumbnail {
+    margin: 10px 0;
 }
 
 /* Footer */
