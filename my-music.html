@@ -70,7 +70,11 @@
 
       <div class="row">
         <div class="col-3">
-          <button class="btn btn-primary">Play</button>
+          <audio src="assets/audio/just-be.mp3" id="player" class="hide"></audio>
+          <div class="audio-block centered">
+              <button class="audio-btn text-center" id="play" aria-label="Play audio button"><i class="far fa-play-circle"></i></button>
+              <button class=" audio-btn hide" id="pause" aria-label="Pause audio button"><i class="far fa-pause-circle"></i></button>
+          </div>
         </div>
         <div class="col-9">
           <p>Just Be</p>
@@ -79,7 +83,7 @@
 
       <div class="row">
         <div class="col-3">
-          <button class="btn btn-primary">Play</button>
+          <button class="btn btn-primary"><i class="far fa-play-circle "></i></button>
         </div>
         <div class="col-9">
           <p>Don't Give a Damn</p>

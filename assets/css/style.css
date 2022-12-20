@@ -144,6 +144,35 @@ h1 {
     margin: 10px 0;
 }
 
+#play, #pause {
+    height: 49px;
+    width: 49px;
+    border-radius: 50%;
+    border-color: white;
+    border: transparent;
+    font-size: 2.3rem;
+    margin: 3px 0;
+    background-color: #ffffff72;
+    text-align: center;
+    vertical-align: middle;
+    color: #000000;
+}
+
+.audio-btn:hover {
+    transition: transform 150ms;
+    transform: scale(1.05);
+    box-shadow: 0 0.4rem 1rem 0 #424242;
+}
+
+.far fa-play-circle {
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+
+.hide {
+    display: none;
+}
+
 /* Footer */
 
 h5 {
