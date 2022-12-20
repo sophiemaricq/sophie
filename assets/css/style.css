@@ -187,7 +187,11 @@ h5 {
 /* for small screen size from 767px wide and down */
 @media screen and (max-width: 767px) {
     #wide-footer {
-        display: none
+        display: none;
+    }
+
+    #wide-table {
+        display: none;
     }
 
 }
@@ -204,7 +208,11 @@ h5 {
     }
 
     #small-footer {
-        display: none
+        display: none;
+    }
+
+    #mobile-table {
+        display: none;
     }
 }
 
