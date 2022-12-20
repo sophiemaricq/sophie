@@ -59,13 +59,17 @@ h1 {
     color: #f16d6d;
     text-align: right;
     margin-right: 2rem;
+    padding-right: inherit;
 }
 
 .jumbotron-text {
     font-size: 1.2rem;
     font-style: italic;
     color: #f8f9fa;
+}
 
+.blockquote {
+    margin-right: 2rem;
 }
 
 /* Buttons */
