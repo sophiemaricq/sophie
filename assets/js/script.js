@@ -13,7 +13,7 @@
             audio_track1.play()
             playing = true;
             console.log("playing")
-            play_button1.innerHTML = '<button class=" audio-btn" id="pause" aria-label="Pause audio button"><i class="far fa-pause-circle"></i></button>'
+            play_button1.innerHTML = '<button class=" audio-btn text-center" id="pause" aria-label="Pause audio button"><i class="far fa-pause-circle"></i></button>'
         } else {
             audio_track1.pause()
             playing = false;

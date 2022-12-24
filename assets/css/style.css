@@ -136,7 +136,7 @@ h1 {
     margin: 10px 0;
 }
 
-#play1, #pause {
+.audio-btn {
     height: 49px;
     width: 49px;
     border-radius: 50%;
@@ -150,11 +150,12 @@ h1 {
     color: #000000;
 }
 
-.audio-btn:hover {
+
+/* .audio-btn:hover {
     transition: transform 150ms;
     transform: scale(1.05);
     box-shadow: 0 0.4rem 1rem 0 #424242;
-}
+} */
 
 .far fa-play-circle {
     padding-right: 15px;
