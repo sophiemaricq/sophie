@@ -162,6 +162,11 @@ h1 {
     padding-bottom: 15px;
 }
 
+.far fa-pause-circle {
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+
 .hide {
     display: none;
 }
