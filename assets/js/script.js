@@ -13,12 +13,12 @@
             audio_track1.play()
             playing = true;
             console.log("playing")
-            this.find('i').classList.add("far fa-pause-circle")
-            this.find('i').classList.remove("far fa-play-circle")
+            play_button1.innerHTML = '<button class=" audio-btn" id="pause" aria-label="Pause audio button"><i class="far fa-pause-circle"></i></button>'
         } else {
             audio_track1.pause()
             playing = false;
             console.log("paused")
+            play_button1.innerHTML = '<button class="audio-btn text-center" id="play1" aria-label="Play audio button"><i class="far fa-play-circle"></i></button>'
         }
     }
 
