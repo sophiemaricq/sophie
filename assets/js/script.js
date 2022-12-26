@@ -57,14 +57,14 @@
     function playMusic1() {
         console.log("play clicked");
         if (playing == false) {
-            audio_track1.play()
+            audio_track1.play();
             playing = true;
-            console.log("playing")
+            console.log("playing");
             play_button1.innerHTML = '<button class=" audio-btn text-center" aria-label="Pause audio button"><i class="far fa-pause-circle audio-block centered"></i></button>'
         } else {
             audio_track1.pause()
             playing = false;
-            console.log("paused")
+            console.log("paused");
             play_button1.innerHTML = '<button class="audio-btn text-center" aria-label="Play audio button"><i class="far fa-play-circle"></i></button>'
         }
     }
