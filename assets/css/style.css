@@ -95,6 +95,11 @@ h1 {
     justify-content: center;
 }
 
+/* Support My Journey */
+.social-icons a {
+    font-size: 10rem;
+}
+
 /* Table */
 
 .table-light, .table-light>td, .table-light>th {
